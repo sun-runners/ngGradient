@@ -1,0 +1,136 @@
+<div class="w-100 h-100 f-n">
+  <div full-page class="section" options="{ scrollingSpeed: 500, controlArrows: false }">
+
+    <!-- Normal -->
+    <div class="f-l w-100 h-100 slide z-1">
+      <ng-gradient class="w-100 h-100" ng-gradient-option="{
+  			opacity: [1, 1],
+        states: {
+          'default-state': {
+            gradients: [
+              ['#F44336', '#FF9800'],
+              ['#FFEB3B', '#8BC34A'],
+              ['#00BCD4', '#03A9F4'],
+              ['#3F51B5', '#9C27B0']
+            ]
+          }
+        }
+      }"></ng-gradient>
+      <div class="p-a cen f-45px c-we z-2 t-c" style="font-family: 'Oleo Script', cursive;">
+        Normal Mode
+      </div>
+    </div>
+
+    <!-- Image -->
+    <div class="f-l w-100 h-100 slide z-1">
+      <ng-gradient class="w-100 h-100" ng-gradient-option="{
+  			opacity: [1, 1],
+        image : {
+          source: 'https://source.unsplash.com/1600x900/?white',
+          blendingMode: 'multiply'
+        },
+        states: {
+          'default-state': {
+  					gradients: [
+              ['#3F51B5', '#9C27B0'],
+              ['#00BCD4', '#03A9F4'],
+              ['#FFEB3B', '#8BC34A'],
+              ['#F44336', '#FF9800']
+  					]
+          }
+        }
+      }"></ng-gradient>
+      <div class="p-a cen f-45px c-we z-2 t-c" style="font-family: 'Oleo Script', cursive;">
+        Image Mode
+      </div>
+    </div>
+
+    <!-- Callbacks -->
+    <div class="f-l w-100 h-100 slide z-1">
+      <ng-gradient class="w-100 h-100" ng-gradient-option="{
+  			opacity: [1, 1],
+        states: {
+          'default-state': {
+  					gradients: [
+              ['#F44336', '#FF9800'],
+              ['#FFEB3B', '#8BC34A'],
+              ['#00BCD4', '#03A9F4'],
+              ['#3F51B5', '#9C27B0']
+  					]
+          }
+        }
+      }" on-start="onStart" on-change="onChange" on-end="onEnd"></ng-gradient>
+      <div class="p-a cen c-we z-2 t-c" style="font-family: 'Oleo Script', cursive;">
+        <div class="w-100 f-45px o-0">
+          Callbacks Mode
+        </div>
+        <div class="w-100 mt-15px">
+          <div class="w-30px h-3px b-we cen"></div>
+        </div>
+        <div class="w-100 f-15px fw-b mt-15px" style="font-family: 'Noto Sans', sans-serif;">
+          {{process_title}} {{process_content}}
+        </div>
+      </div>
+    </div>
+
+    <!-- Methods -->
+    <div class="f-l w-100 h-100 slide z-1">
+      <ng-gradient class="w-100 h-100" ng-gradient-option="{
+  			opacity: [1, 1],
+        states: {
+          'default-state': {
+  					gradients: [
+              ['#3F51B5', '#9C27B0'],
+              ['#00BCD4', '#03A9F4'],
+              ['#FFEB3B', '#8BC34A'],
+              ['#F44336', '#FF9800']
+  					]
+          }
+        }
+      }" ng-gradient-instance="instance"></ng-gradient>
+      <div class="p-a cen f-45px c-we z-2 t-c" style="font-family: 'Oleo Script', cursive;">
+        <div class="w-100">
+          Methods Mode
+        </div>
+        <div class="w-100 t-c" style="font-family: 'Noto Sans', sans-serif;">
+          <div class="d-ib f-n">
+            <div class="f-l">
+              <button class="d-ib c-we p-9px o-50 o-100-H" ng-click="instance.play();">
+                <i class="w-100 ion-play"></i>
+                <span class="w-100 f-18px">Play</span>
+              </button>
+              <button class="d-ib c-we p-9px o-50 o-100-H" ng-click="instance.pause();">
+                <i class="w-100 ion-pause"></i>
+                <span class="w-100 f-18px">Pause</span>
+              </button>
+              <button class="d-ib c-we p-9px o-50 o-100-H" ng-init="directions = ['diagonal', 'left-right', 'top-bottom', 'radial']; index_direction=0;" ng-click="index_direction=index_direction+1; index_direction = index_direction%4; instance.changeDirection( directions[index_direction] );">
+                <i class="w-100 ion-loop"></i>
+                <span class="w-100 f-18px">Direction</span>
+              </button>
+              <button class="d-ib c-we p-9px o-50 o-100-H" ng-click="instance.destroy();">
+                <i class="w-100 ion-android-close"></i>
+                <span class="w-100 f-18px">Destroy</span>
+              </button>
+              <button class="d-ib c-we p-9px o-50 o-100-H" ng-click="instance.clear();">
+                <i class="w-100 ion-refresh"></i>
+                <span class="w-100 f-18px">Clear</span>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Text -->
+    <button class="p-a w-20 h-60px cen-y c-we l-0 z-2" ng-click="movePrev();">
+      <div class="p-r w-100 h-100">
+        <i class="ion-arrow-left-b f-30px cen"></i>
+      </div>
+    </button>
+    <button class="p-a w-20 h-60px cen-y c-we r-0 z-2" ng-click="moveNext();">
+      <div class="p-r w-100 h-100">
+        <i class="ion-arrow-right-b f-30px cen"></i>
+      </div>
+    </button>
+  </div>
+</div>

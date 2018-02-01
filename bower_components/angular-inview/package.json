@@ -1,0 +1,36 @@
+{
+  "name": "angular-inview",
+  "version": "3.0.0",
+  "description": "AngularJS directive to check if a DOM element is in the viewport",
+  "main": "angular-inview.js",
+  "scripts": {
+    "test": "karma start",
+    "publish-docs": "docco -o docs angular-inview.js && mv docs/angular-inview.html docs/index.html && gh-pages -d docs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thenikso/angular-inview.git"
+  },
+  "keywords": [
+    "angualr",
+    "inview"
+  ],
+  "author": "Nicola Peduzzi <thenikso@gmail.com> (http://nikso.net)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/thenikso/angular-inview/issues"
+  },
+  "homepage": "https://github.com/thenikso/angular-inview#readme",
+  "peerDependencies": {
+    "angular": "^1.5.8"
+  },
+  "devDependencies": {
+    "angular-mocks": "1.6.8",
+    "docco": "^0.7.0",
+    "gh-pages": "^0.11.0",
+    "jasmine-core": "2.9.1",
+    "karma": "2.0.0",
+    "karma-chrome-launcher": "2.2.0",
+    "karma-jasmine": "1.1.1"
+  }
+}
