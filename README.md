@@ -28,11 +28,11 @@ Quick start
 Copy-paste the stylesheet <script> into your <body>.
 
 ```
-<script src=".bower_components/ngGradient/ngGradient.js"></script>
+<script src=".bower_components/ng-gradient/ngGradient.js"></script>
 ```
 or
 ```
-<script src=".bower_components/ngGradient/ngGradient.min.js"></script>
+<script src=".bower_components/ng-gradient/ngGradient.min.js"></script>
 ```
 or
 ```
