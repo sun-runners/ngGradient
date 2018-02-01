@@ -82,7 +82,7 @@ angular.module('app')
   });
 ```
 
-view.html
+template.html
 
 ```
 <ng-gradient ng-gradient-option="{
@@ -102,14 +102,6 @@ view.html
     }
   }
 }" on-start="onStart" on-change="onChange" on-end="onEnd"></ng-gradient>
-```
-
-Once enter is pressed
-
-```
-$scope.message === 'enter pressed' // true
-$scope.model.$enter === true // true
-$scope.model.$entered === true // true
 ```
 
 <br/>
