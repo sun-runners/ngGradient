@@ -36,11 +36,11 @@ or
 ```
 or
 ```
-<script src="https://raw.githubusercontent.com/KimSunWook/ngGradient/master/ngGradient.js"></script>
+<script src="https://cdn.rawgit.com/KimSunWook/ngGradient/v1.0.1/ngGradient.js"></script>
 ```
 or
 ```
-<script src="https://raw.githubusercontent.com/KimSunWook/ngGradient/master/ngGradient.min.js"></script>
+<script src="https://cdn.rawgit.com/KimSunWook/ngGradient/v1.0.1/ngGradient.min.js"></script>
 ```
 
 <br/>
@@ -62,8 +62,6 @@ angular.module('myApp', [
 ctrl.js
 
 ```
-'use strict';
-
 angular.module('app')
   .controller('Ctrl', function($scope) {
 

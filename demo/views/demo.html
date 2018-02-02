@@ -16,7 +16,7 @@
           }
         }
       }"></ng-gradient>
-      <div class="p-a cen f-45px c-we z-2 t-c" style="font-family: 'Oleo Script', cursive;">
+      <div class="p-a cen f-30px c-we z-2 t-c" style="font-family: 'Oleo Script', cursive;">
         Normal Mode
       </div>
     </div>
@@ -40,7 +40,7 @@
           }
         }
       }"></ng-gradient>
-      <div class="p-a cen f-45px c-we z-2 t-c" style="font-family: 'Oleo Script', cursive;">
+      <div class="p-a cen f-30px c-we z-2 t-c" style="font-family: 'Oleo Script', cursive;">
         Image Mode
       </div>
     </div>
@@ -61,7 +61,7 @@
         }
       }" on-start="onStart" on-change="onChange" on-end="onEnd"></ng-gradient>
       <div class="p-a cen c-we z-2 t-c" style="font-family: 'Oleo Script', cursive;">
-        <div class="w-100 f-45px o-0">
+        <div class="w-100 f-30px o-0">
           Callbacks Mode
         </div>
         <div class="w-100 mt-15px">
@@ -88,30 +88,30 @@
           }
         }
       }" ng-gradient-instance="instance"></ng-gradient>
-      <div class="p-a cen f-45px c-we z-2 t-c" style="font-family: 'Oleo Script', cursive;">
+      <div class="p-a cen f-30px c-we z-2 t-c" style="font-family: 'Oleo Script', cursive;">
         <div class="w-100">
           Methods Mode
         </div>
         <div class="w-100 t-c" style="font-family: 'Noto Sans', sans-serif;">
           <div class="d-ib f-n">
             <div class="f-l">
-              <button class="d-ib c-we p-9px o-50 o-100-H" ng-click="instance.play();">
+              <button class="d-ib c-we p-3px o-50 o-100-H" ng-click="instance.play();">
                 <i class="w-100 ion-play"></i>
                 <span class="w-100 f-18px">Play</span>
               </button>
-              <button class="d-ib c-we p-9px o-50 o-100-H" ng-click="instance.pause();">
+              <button class="d-ib c-we p-3px o-50 o-100-H" ng-click="instance.pause();">
                 <i class="w-100 ion-pause"></i>
                 <span class="w-100 f-18px">Pause</span>
               </button>
-              <button class="d-ib c-we p-9px o-50 o-100-H" ng-init="directions = ['diagonal', 'left-right', 'top-bottom', 'radial']; index_direction=0;" ng-click="index_direction=index_direction+1; index_direction = index_direction%4; instance.changeDirection( directions[index_direction] );">
+              <button class="d-ib c-we p-3px o-50 o-100-H" ng-init="directions = ['diagonal', 'left-right', 'top-bottom', 'radial']; index_direction=0;" ng-click="index_direction=index_direction+1; index_direction = index_direction%4; instance.changeDirection( directions[index_direction] );">
                 <i class="w-100 ion-loop"></i>
                 <span class="w-100 f-18px">Direction</span>
               </button>
-              <button class="d-ib c-we p-9px o-50 o-100-H" ng-click="instance.destroy();">
+              <button class="d-ib c-we p-3px o-50 o-100-H" ng-click="instance.destroy();">
                 <i class="w-100 ion-android-close"></i>
                 <span class="w-100 f-18px">Destroy</span>
               </button>
-              <button class="d-ib c-we p-9px o-50 o-100-H" ng-click="instance.clear();">
+              <button class="d-ib c-we p-3px o-50 o-100-H" ng-click="instance.clear();">
                 <i class="w-100 ion-refresh"></i>
                 <span class="w-100 f-18px">Clear</span>
               </button>
