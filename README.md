@@ -27,6 +27,8 @@ Quick start
 
 Copy-paste the ```<script>``` into your ```<body>```.
 
+<br/>
+
 granim.js
 ```
 <script src=".bower_components/granim/dist/granim.js"></script>
@@ -35,6 +37,8 @@ or
 ```
 <script src=".bower_components/granim/dist/granim.min.js"></script>
 ```
+
+<br/>
 
 ngGradient.js
 ```
