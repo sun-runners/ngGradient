@@ -25,8 +25,18 @@ bower install ng-gradient --save
 Quick start
 -------
 
-Copy-paste the stylesheet <script> into your <body>.
+Copy-paste the ```<script>``` into your ```<body>```.
 
+granim.js
+```
+<script src=".bower_components/granim/dist/granim.js"></script>
+```
+or
+```
+<script src=".bower_components/granim/dist/granim.min.js"></script>
+```
+
+ngGradient.js
 ```
 <script src=".bower_components/ng-gradient/ngGradient.js"></script>
 ```
