@@ -29,7 +29,8 @@ Copy-paste the ```<script>``` into your ```<body>```.
 
 <br/>
 
-granim.js
+### granim.js
+
 ```
 <script src=".bower_components/granim/dist/granim.js"></script>
 ```
@@ -40,7 +41,8 @@ or
 
 <br/>
 
-ngGradient.js
+### ngGradient.js
+
 ```
 <script src=".bower_components/ng-gradient/ngGradient.js"></script>
 ```
