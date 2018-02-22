@@ -2,7 +2,7 @@
   "name": "ng-gradient",
   "version": "1.0.1",
   "homepage": "https://github.com/KimSunWook/ngGradient",
-  "main": "ngGradient.js",
+  "main": ["ngGradient.js", "ngGradient.min.js"],
   "authors": [
     "Kim Sun Wook <sunus7@naver.com>"
   ],
