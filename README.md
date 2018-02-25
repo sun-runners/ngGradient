@@ -48,15 +48,7 @@ or
 ```
 or
 ```
-<script src=".bower_components/ng-gradient/ngGradient.min.js"></script>
-```
-or
-```
-<script src="https://cdn.rawgit.com/KimSunWook/ngGradient/v1.1.2/ngGradient.js"></script>
-```
-or
-```
-<script src="https://cdn.rawgit.com/KimSunWook/ngGradient/v1.1.2/ngGradient.min.js"></script>
+<script src="https://cdn.rawgit.com/KimSunWook/ngGradient/v1.1.3/ngGradient.js"></script>
 ```
 
 <br/>

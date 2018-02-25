@@ -33,5 +33,5 @@
         restrict: "E",
         template: '<canvas></canvas>'
       };
-    });
-}])(angular);
+    }]);
+  })(angular);
