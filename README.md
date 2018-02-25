@@ -52,11 +52,11 @@ or
 ```
 or
 ```
-<script src="https://cdn.rawgit.com/KimSunWook/ngGradient/v1.0.1/ngGradient.js"></script>
+<script src="https://cdn.rawgit.com/KimSunWook/ngGradient/v1.1.2/ngGradient.js"></script>
 ```
 or
 ```
-<script src="https://cdn.rawgit.com/KimSunWook/ngGradient/v1.0.1/ngGradient.min.js"></script>
+<script src="https://cdn.rawgit.com/KimSunWook/ngGradient/v1.1.2/ngGradient.min.js"></script>
 ```
 
 <br/>

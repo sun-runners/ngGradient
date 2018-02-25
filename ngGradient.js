@@ -1,6 +1,6 @@
 (function(angular) {
   angular.module('ngGradient', ['ng'])
-    .directive("ngGradient", function($rootScope) {
+    .directive("ngGradient", ['$rootScope', function($rootScope) {
       return {
         link: function(scope, element, attrs) {
 
@@ -34,4 +34,4 @@
         template: '<canvas></canvas>'
       };
     });
-})(angular);
+}])(angular);
